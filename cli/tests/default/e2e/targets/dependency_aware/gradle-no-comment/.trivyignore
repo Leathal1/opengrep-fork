@@ -1,0 +1,6 @@
+# Suppress CVE-2022-45143 (tomcat: JsonErrorReportValve injection) in test fixture gradle.lockfile
+CVE-2022-45143
+# Suppress CVE-2024-50379 (tomcat: RCE due to TOCTOU issue in JSP compilation) in test fixture gradle.lockfile
+CVE-2024-50379
+# Suppress CVE-2023-24998 (FileUpload: FileUpload DoS with excessive parts) in test fixture gradle.lockfile
+CVE-2023-24998
