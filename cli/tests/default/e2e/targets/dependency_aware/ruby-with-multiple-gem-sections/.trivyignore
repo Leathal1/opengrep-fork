@@ -7,3 +7,5 @@ CVE-2024-47220
 # and not a production dependency. The fixture is intentionally pinned for snapshot
 # determinism. EPSS 0.00091, not KEV-listed, HIGH severity.
 CVE-2026-41493
+# CVE-2024-49761: REXML ReDoS via hex numeric character reference — test fixture only, not a real vulnerability
+CVE-2024-49761

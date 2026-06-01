@@ -4,3 +4,5 @@
 CVE-2024-47220
 # CVE-2026-41493: YARD Information Disclosure via Path Traversal in yard server — test fixture only, not a real vulnerability
 CVE-2026-41493
+# CVE-2024-49761: REXML ReDoS via hex numeric character reference — test fixture only, not a real vulnerability
+CVE-2024-49761
