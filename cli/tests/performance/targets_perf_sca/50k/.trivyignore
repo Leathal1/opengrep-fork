@@ -3,3 +3,4 @@
 # The vulnerable packages are never installed or run in production.
 CVE-2026-41493 # YARD: Information Disclosure via Path Traversal in yard server (pkg: yard) - performance test fixture, EPSS 0.00091, not KEV-listed
 CVE-2024-49761 # REXML: REXML ReDoS vulnerability (pkg: rexml) - performance test fixture, EPSS 0.01645, not KEV-listed
+CVE-2024-47220 # WEBrick: HTTP request smuggling (pkg: webrick) - performance test fixture, EPSS 0.00108, not KEV-listed
