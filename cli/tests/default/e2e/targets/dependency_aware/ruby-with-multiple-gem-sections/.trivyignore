@@ -1,4 +1,9 @@
-# Test fixture for opengrep dependency-aware end-to-end tests.
-# Vulnerable dependencies are intentionally present and should NOT be flagged in production scans.
+# Test fixture — this Gemfile.lock is part of the opengrep e2e test suite and not a deployed dependency.
+# CVEs here are intentionally present in the test data.
 # CVE-2024-47220: WEBrick HTTP request smuggling — test fixture only, not a real vulnerability
 CVE-2024-47220
+# CVE-2026-41493: yard: YARD: Information Disclosure via Path Traversal in yard server (pkg: yard)
+# This finding is a false positive because it is in an e2e test fixture (Gemfile.lock)
+# and not a production dependency. The fixture is intentionally pinned for snapshot
+# determinism. EPSS 0.00091, not KEV-listed, HIGH severity.
+CVE-2026-41493
