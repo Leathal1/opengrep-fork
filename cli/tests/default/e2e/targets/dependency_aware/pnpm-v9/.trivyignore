@@ -1,0 +1,3 @@
+# Test fixture — this pnpm-lock.yaml is part of the opengrep e2e test suite and not a deployed dependency.
+# CVEs here are intentionally present in the test data.
+CVE-2026-47208
