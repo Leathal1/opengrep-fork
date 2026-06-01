@@ -1,0 +1,4 @@
+# Test fixtures for performance SCA scans — these lockfiles contain intentionally
+# pinned versions of vulnerable dependencies for benchmarking purposes.
+# The vulnerable packages are never installed or run in production.
+CVE-2026-41493
