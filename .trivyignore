@@ -1,0 +1,9 @@
+# VIPER false positive: CVE-2026-44431 (GHSA-qccp-gfcp-xxvc)
+# urllib3 ==2.7.0 is already patched (affects <2.7.0); confirmed in opengrep-fork/cli/Pipfile.lock
+# See tasks t_42b6eb28 and t_192c38f7
+CVE-2026-44431
+
+# VIPER false positive: CVE-2025-50181 (GHSA-pq67-6m6q-mj2v)
+# urllib3 ==2.7.0 in cli/Pipfile.lock is already patched (affects <2.5.0); no remediation needed
+# See task t_d91167c5
+CVE-2025-50181
