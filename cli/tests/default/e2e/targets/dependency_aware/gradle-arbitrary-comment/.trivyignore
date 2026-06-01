@@ -57,3 +57,8 @@ CVE-2023-1370
 # HTTP Header Injection via HttpProxyHandler Disabled Validation, but this is a deliberate test fixture target,
 # not a runtime application dependency.
 CVE-2026-42578
+
+# io.netty:netty-codec-http:4.1.75.Final is bundled for dependency-awareness e2e tests.
+# CVE-2026-41417 (GHSA-v8h7-rr48-vmmv) identifies HTTP request smuggling via DefaultHttpRequest.setUri(),
+# but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2026-41417
