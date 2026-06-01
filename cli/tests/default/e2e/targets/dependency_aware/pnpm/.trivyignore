@@ -1,0 +1,8 @@
+# Test fixture — not a production dependency
+CVE-2026-42033
+CVE-2026-42035
+CVE-2026-44495
+# CVE-2025-58754: axios: Axios DoS via lack of data size check
+# This finding is a false positive because it is in an e2e test fixture (pnpm-lock.yaml)
+# and not a production dependency. EPSS 0.00257, not KEV-listed, HIGH severity.
+CVE-2025-58754

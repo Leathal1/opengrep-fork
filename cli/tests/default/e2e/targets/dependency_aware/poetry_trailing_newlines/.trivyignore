@@ -1,0 +1,2 @@
+CVE-2021-35042
+# Test fixture — poetry.lock is used as an e2e dependency-scan target, not a production lockfile.
