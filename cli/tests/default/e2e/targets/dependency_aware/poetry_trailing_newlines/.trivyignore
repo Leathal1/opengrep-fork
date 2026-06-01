@@ -4,9 +4,39 @@ CVE-2021-35042
 # and not a production dependency. The fixture is intentionally pinned for snapshot
 # determinism. EPSS 0.00296, not KEV-listed, CRITICAL severity.
 CVE-2025-64459
+# CVE-2025-64458: django: Denial-of-service vulnerability in Django on Windows (pkg: django)
+# This finding is a false positive because it is in an e2e test fixture (poetry.lock)
+# and not a production dependency. The fixture is intentionally pinned for snapshot
+# determinism. EPSS 0.00026, not KEV-listed, HIGH severity.
+CVE-2025-64458
 # Test fixture — poetry.lock is used as an e2e dependency-scan target, not a production lockfile.
+# CVE-2022-36359: django: HTTP FileResponse class issue in Django 3.2+ (pkg: django)
+# This finding is a false positive because it is in an e2e test fixture (poetry.lock)
+# and not a production dependency. The fixture is intentionally pinned for snapshot
+# determinism. EPSS 0.01374, not KEV-listed, HIGH severity.
+CVE-2022-36359
 # CVE-2024-1135: python-gunicorn: HTTP Request Smuggling due to improper validation of Transfer-Encoding headers (pkg: gunicorn)
 # This finding is a false positive because it is in an e2e test fixture (poetry.lock)
 # and not a production dependency. The fixture is intentionally pinned for snapshot
 # determinism. EPSS 0.00049, not KEV-listed, HIGH severity.
 CVE-2024-1135
+# CVE-2024-6827: gunicorn: HTTP Request Smuggling in benoitc/gunicorn (pkg: gunicorn)
+# This finding is a false positive because it is in an e2e test fixture (poetry.lock)
+# and not a production dependency. The fixture is intentionally pinned for snapshot
+# determinism. EPSS 0.00029, not KEV-listed, HIGH severity.
+CVE-2024-6827
+# CVE-2025-57833: django: Django SQL injection in FilteredRelation column aliases (pkg: django)
+# This finding is a false positive because it is in an e2e test fixture (poetry.lock)
+# and not a production dependency. The fixture is intentionally pinned for snapshot
+# determinism.
+CVE-2025-57833
+# CVE-2026-41066: lxml: Information disclosure via untrusted XML input leading to local file read (pkg: lxml)
+# This finding is a false positive because it is in an e2e test fixture (poetry.lock)
+# and not a production dependency. The fixture is intentionally pinned for snapshot
+# determinism. EPSS 0.00044, not KEV-listed, HIGH severity.
+CVE-2026-41066
+# CVE-2026-0994: python: protobuf: Denial of Service due to recursion depth bypass (pkg: protobuf)
+# This finding is a false positive because it is in an e2e test fixture (poetry.lock)
+# and not a production dependency. The fixture is intentionally pinned for snapshot
+# determinism. EPSS 0.00013, not KEV-listed, HIGH severity.
+CVE-2026-0994

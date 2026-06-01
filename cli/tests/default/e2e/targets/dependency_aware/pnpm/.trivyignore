@@ -10,3 +10,7 @@ CVE-2026-42264
 # CVE-2026-42035: axios: Arbitrary HTTP header injection via prototype pollution
 # False positive — this is an e2e test fixture (pnpm-lock.yaml), not a production dependency. EPSS 0.00035, not KEV-listed, HIGH severity.
 CVE-2026-42035
+# CVE-2026-25639: axios: Axios affected by Denial of Service via __proto__ Key in mergeConfig
+# This finding is a false positive because it is in an e2e test fixture (pnpm-lock.yaml)
+# and not a production dependency. EPSS 0.00044, not KEV-listed, HIGH severity.
+CVE-2026-25639
