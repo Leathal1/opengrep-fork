@@ -45,6 +45,7 @@ types-setuptools = "*"
 importlib_metadata = "*"
 importlib_resources = ">=1.4.0"
 typing_extensions = "*"
+setuptools = ">=77.0.3"
 
 [packages]
 jsonschema = "==4.6.1"
