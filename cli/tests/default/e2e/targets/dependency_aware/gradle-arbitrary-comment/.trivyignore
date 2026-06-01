@@ -38,3 +38,8 @@ CVE-2023-51074
 # CVE-2022-3510 (GHSA-4gg5-vx3j-xwc7) identifies Uncontrolled Resource Consumption, but this is a deliberate test fixture target,
 # not a runtime application dependency.
 CVE-2022-3510
+
+# io.projectreactor.netty:reactor-netty-http is bundled for dependency-awareness e2e tests.
+# CVE-2022-31684 (GHSA-7w4x-4h67-pgmv) identifies Invalid HTTP requests in Reactor Netty HTTP Server may reveal access tokens,
+# but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2022-31684
