@@ -29,3 +29,7 @@ CVE-2020-8908
 # jackson-databind is bundled for dependency-awareness e2e tests. CVE-2022-42004 identifies Uncontrolled Resource
 # Consumption, but this is a deliberate test fixture target, not a runtime application dependency.
 CVE-2022-42004
+
+# json-path is bundled for dependency-awareness e2e tests. CVE-2023-51074 (GHSA-pfh2-hfmq-phg5) identifies
+# Out-of-bounds Write, but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2023-51074
