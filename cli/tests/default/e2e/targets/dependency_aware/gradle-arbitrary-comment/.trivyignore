@@ -43,3 +43,8 @@ CVE-2022-3510
 # CVE-2022-31684 (GHSA-7w4x-4h67-pgmv) identifies Invalid HTTP requests in Reactor Netty HTTP Server may reveal access tokens,
 # but this is a deliberate test fixture target, not a runtime application dependency.
 CVE-2022-31684
+
+# org.apache.commons:commons-compress is bundled for dependency-awareness e2e tests.
+# CVE-2024-26308 (GHSA-4265-ccf5-phj5) identifies OutOfMemoryError unpacking broken Pack200 file,
+# but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2024-26308
