@@ -1,0 +1,4 @@
+# Test fixture for opengrep dependency-aware end-to-end tests.
+# Vulnerable dependencies are intentionally present and should NOT be flagged in production scans.
+# CVE-2024-47220: WEBrick HTTP request smuggling — test fixture only, not a real vulnerability
+CVE-2024-47220
