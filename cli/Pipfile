@@ -11,6 +11,7 @@ pytest = "*"
 pytest-snapshot = "*"
 pytest-xdist = "*"
 tox = "*"
+filelock = ">=3.17.0"
 requests-mock = "*"
 # versions must be manually synced:
 # - cli/setup.py lists dependencies
