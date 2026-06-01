@@ -1,3 +1,12 @@
-# Test fixture — logback-core 1.2.11 is intentionally bundled as a target for dependency-awareness e2e tests.
-# Suppressing false-positive CVE triggered by the fixture lockfile.
+# Test fixture — logback-core 1.2.11 and google-oauth-client are intentionally bundled as targets for dependency-awareness e2e tests.
+# Suppressing false-positive CVEs triggered by the fixture lockfile.
 CVE-2024-12798
+
+# logback-core 1.2.11 is intentionally bundled for dependency-awareness e2e tests.
+# CVE-2025-11226 identifies Arbitrary Code Execution via file processing, but this is a deliberate test fixture target,
+# not a runtime application dependency.
+CVE-2025-11226
+
+# google-oauth-client is bundled for dependency-awareness e2e tests. CVE-2021-22573 identifies improper signature
+# verification, but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2021-22573

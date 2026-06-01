@@ -6,3 +6,7 @@ CVE-2021-23424
 CVE-2021-23337
 # CVE-2025-13465: Prototype Pollution in lodash _.unset / _.omit — test fixture only, not a production dependency
 CVE-2025-13465
+# CVE-2026-4800: Code Injection via _.template imports key names in lodash - test fixture only
+CVE-2026-4800
+# CVE-2026-2950: Prototype Pollution in lodash via array path bypass in _.unset / _.omit - test fixture only
+CVE-2026-2950
