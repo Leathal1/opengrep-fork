@@ -6,3 +6,5 @@ CVE-2020-14343
 CVE-2017-18342
 # CVE-2020-25658: Timing attacks in python-rsa (pkg: rsa) — test fixture only, not a real vulnerability
 CVE-2020-25658
+# CVE-2020-13757: Python-RSA decryption of ciphertext leads to DoS (pkg: rsa) — test fixture only, not a real vulnerability
+CVE-2020-13757
