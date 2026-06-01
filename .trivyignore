@@ -1,0 +1,4 @@
+# GHSA-xpw8-rcwv-8f8p: io.netty:netty-codec-http2 HTTP/2 Rapid Reset Attack
+# Reason: Test fixture, not a runtime dependency.
+# Finding Hash: f5826c5d0c28f41c
+cli/tests/default/e2e/targets/dependency_aware/gradle-no-comment/gradle.lockfile
