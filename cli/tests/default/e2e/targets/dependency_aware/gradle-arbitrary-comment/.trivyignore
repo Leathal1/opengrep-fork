@@ -1,0 +1,3 @@
+# Test fixture — logback-core 1.2.11 is intentionally bundled as a target for dependency-awareness e2e tests.
+# Suppressing false-positive CVE triggered by the fixture lockfile.
+CVE-2024-12798
