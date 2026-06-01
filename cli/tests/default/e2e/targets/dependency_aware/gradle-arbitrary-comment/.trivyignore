@@ -48,3 +48,7 @@ CVE-2022-31684
 # CVE-2024-26308 (GHSA-4265-ccf5-phj5) identifies OutOfMemoryError unpacking broken Pack200 file,
 # but this is a deliberate test fixture target, not a runtime application dependency.
 CVE-2024-26308
+
+# net.minidev:json-smart is bundled for dependency-awareness e2e tests. CVE-2023-1370 (GHSA-493p-pfq6-5258) identifies
+# Uncontrolled Recursion, but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2023-1370
