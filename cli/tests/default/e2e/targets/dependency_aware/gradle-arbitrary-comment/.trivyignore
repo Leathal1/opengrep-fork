@@ -40,11 +40,31 @@ CVE-2023-51074
 CVE-2022-3510
 
 # io.projectreactor.netty:reactor-netty-http is bundled for dependency-awareness e2e tests.
+# CVE-2025-22227 (GHSA-4q2v-9p7v-3v22) identifies credential leaks during chained redirects,
+# but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2025-22227
+
+# io.projectreactor.netty:reactor-netty-http is bundled for dependency-awareness e2e tests.
 # CVE-2022-31684 (GHSA-7w4x-4h67-pgmv) identifies Invalid HTTP requests in Reactor Netty HTTP Server may reveal access tokens,
 # but this is a deliberate test fixture target, not a runtime application dependency.
 CVE-2022-31684
+
+# io.projectreactor.netty:reactor-netty-core is bundled for dependency-awareness e2e tests.
+# CVE-2023-34054 (GHSA-q24v-hpg3-v3jp) identifies Reactor Netty HTTP Server denial of service vulnerability,
+# but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2023-34054
+
+# io.projectreactor.netty:reactor-netty-http is bundled for dependency-awareness e2e tests.
+# CVE-2023-34062 (GHSA-xjhv-p3fv-x24r) identifies Directory traversal via specially crafted URL,
+# but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2023-34062
 
 # org.apache.commons:commons-compress is bundled for dependency-awareness e2e tests.
 # CVE-2024-26308 (GHSA-4265-ccf5-phj5) identifies OutOfMemoryError unpacking broken Pack200 file,
 # but this is a deliberate test fixture target, not a runtime application dependency.
 CVE-2024-26308
+
+# io.netty:netty-codec-dns is bundled for dependency-awareness e2e tests. CVE-2026-42579
+# (GHSA-cm33-6792-r9fm) identifies DNS Codec Input Validation Bypass (Encoder + Decoder),
+# but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2026-42579
