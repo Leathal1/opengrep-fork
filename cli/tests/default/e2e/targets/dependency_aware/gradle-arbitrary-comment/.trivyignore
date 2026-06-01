@@ -10,3 +10,22 @@ CVE-2025-11226
 # google-oauth-client is bundled for dependency-awareness e2e tests. CVE-2021-22573 identifies improper signature
 # verification, but this is a deliberate test fixture target, not a runtime application dependency.
 CVE-2021-22573
+
+# logback-core is bundled for dependency-awareness e2e tests. CVE-2026-1225 (GHSA-qqpg-mvqg-649v) identifies
+# class instantiation via Joran configuration, but this is a deliberate test fixture target,
+# not a runtime application dependency.
+CVE-2026-1225
+
+# io.grpc:grpc-netty-shaded is bundled for dependency-awareness e2e tests. CVE-2025-55163
+# identifies the MadeYouReset HTTP/2 DDoS vulnerability in Netty, but this is a deliberate
+# test fixture target, not a runtime application dependency.
+CVE-2025-55163
+
+# guava is bundled for dependency-awareness e2e tests. CVE-2020-8908 (GHSA-5mg8-w23w-74h3) identifies
+# Information Disclosure via temporary directory creation, but this is a deliberate test fixture target,
+# not a runtime application dependency.
+CVE-2020-8908
+
+# jackson-databind is bundled for dependency-awareness e2e tests. CVE-2022-42004 identifies Uncontrolled Resource
+# Consumption, but this is a deliberate test fixture target, not a runtime application dependency.
+CVE-2022-42004
