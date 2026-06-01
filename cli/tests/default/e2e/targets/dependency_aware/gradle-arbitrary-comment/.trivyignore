@@ -52,3 +52,8 @@ CVE-2024-26308
 # net.minidev:json-smart is bundled for dependency-awareness e2e tests. CVE-2023-1370 (GHSA-493p-pfq6-5258) identifies
 # Uncontrolled Recursion, but this is a deliberate test fixture target, not a runtime application dependency.
 CVE-2023-1370
+
+# io.netty:netty-handler-proxy is bundled for dependency-awareness e2e tests. CVE-2026-42578 (GHSA-45q3-82m4-75jr) identifies
+# HTTP Header Injection via HttpProxyHandler Disabled Validation, but this is a deliberate test fixture target,
+# not a runtime application dependency.
+CVE-2026-42578
